@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry
- * Return: Alwqys success
+ * Return: Always success
  */
 int main(void)
-{	
-	puts("\"the size of various types on the computer it is compiled");
-	return(0);
+{
+	puts("\"the size of various types on the computer");
+	return (0);
 }
