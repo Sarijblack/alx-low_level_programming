@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	puts("\"the size of various types on the computer");
+	puts("\"the size of various types on the computer it is compiled and run on.");
 	return (0);
 }
