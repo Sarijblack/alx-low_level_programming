@@ -3,7 +3,7 @@
 
 /**
  * _putchar - writes the character c to stdout
- * @c: the character to point
+ * @c; the character to point
  *
  * Return: on success 1
  */
