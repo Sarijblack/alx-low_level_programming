@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
-*print_numbers - print 0123456789
-* owned by Bwave ICT
-*Return: void
+*print_numbers - print from 0 to 9
+*Return: Always 0
 */
 
 void print_numbers(void)
 {
-	char c;
+	int a = 0;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
+	while (a < 10)
+		_putchar(a++ + '0');
+
+
 	_putchar('\n');
 }
