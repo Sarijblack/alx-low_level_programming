@@ -1,20 +1,18 @@
-#include "main.h"
+include "main.h"
 
-/*
- * main - check the code
- * prints_numbers from 0 to 9
- * Return: Always succesd
- */
+/**
+*print_numbers - print 0123456789
+* 
+*Return: Always 0
+*/
+
 void print_numbers(void)
 {
 	char a;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = '0'; a <= '9'; s++)
 	{
-		_putchar(a);
+	_putchar(a);
 	}
-		_putchar('\n');
-
-		return (0);
+	_putchar('\n');
 }
-
