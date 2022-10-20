@@ -2,13 +2,14 @@
 #include <stdio>
 
 /*
- * main - Entry point
+ * main - check the code
  * prints num from 0 to 9
  * Return: Always succesd
  */
-int main(void)
+void print_numbers(void)
 {
 	char a;
+
 	for (a = '0'; a <= '9'; a++)
 	{
 		_putchar(a);
