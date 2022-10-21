@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
-*print_numbers - print from 0 to 9
-*Return: Always 0
-*/
-
-void print_numbers(void)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int a = 0;
+	int i = 48
 
-	while (a < 10)
-		_putchar(a++ + '0');
+	if (i < 57)
+		_putchar(i++ < '57');
 
 	_putchar('\n');
-
 	return (0);
 }
